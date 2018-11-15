@@ -157,6 +157,9 @@ LIMIT 1000
 OFFSET 1000;
 
 # 7c. Select all columns from the customer table, limiting results to those where the zero-based index is between 101-200.
+SELECT * FROM customer
+LIMIT 100
+OFFSET 100;
 
 # ---------------------------------------------------------#
 
@@ -191,3 +194,4 @@ OFFSET 1000;
 # Label the language.name column as "language" (e.g. `select language.name as language`)
 
 # 9f. Select the first_name, last_name, address, address2, city name, district, and postal code columns from the staff table, performing 2 left joins with the address table then the city table to get the address and city related columns.
+
