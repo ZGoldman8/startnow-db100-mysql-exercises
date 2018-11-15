@@ -118,7 +118,7 @@ describe('SQL Exercises -', function () {
 
     sqlConnection.connect();
 
-    readAndExecute('exercises').then(rows => results = rows).then(() => {
+    readAndExecute('new_exercises').then(rows => results = rows).then(() => {
       sqlConnection.end();
       done()
     });
